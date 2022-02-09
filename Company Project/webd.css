@@ -1,0 +1,254 @@
+body{
+    font-family: 'Montserrat-light';
+    text-align: center;
+    
+}
+
+#title{
+    background-color: #112869;
+    color: #fff;
+    text-align: left;
+}
+
+
+.container-fluid{
+    padding: 3% 4% 14%;
+}
+
+h1 {  
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 2.5rem;  
+    line-height: 1.5;  
+    font-weight: 600;
+    margin-top: 15%;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;  ;
+    font-size: 3rem;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+p{
+    color:#8f8f8f;
+}
+
+/* Navigation bar*/
+
+.navbar {
+padding: 0 0 5.5rem;
+
+}
+
+.navbar-nav{
+    float: right!important;
+}
+
+.nav-item{
+    padding-left: 16px;
+    padding: 0 18px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family:'Montserrat', sans-serif;
+    
+}
+/* button*/
+
+
+.btn {
+    background: #b6dffa;
+    background-image: -webkit-linear-gradient(top, #63aada, #f1f5f8);
+    background-image: -moz-linear-gradient(top, #63aada, #f1f5f8);
+    background-image: -ms-linear-gradient(top, #63aada #f1f5f8);
+    background-image: -o-linear-gradient(top, #63aada, #f1f5f8);
+    background-image: linear-gradient(to bottom, #63aada, #f1f5f8);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #8ca2df;
+    background-image: -webkit-linear-gradient(top, #aee3f3, #116799);
+    background-image: -moz-linear-gradient(top, #aee3f3, #116799);
+    background-image: -ms-linear-gradient(top, #aee3f3, #116799);
+    background-image: -o-linear-gradient(top, #aee3f3, #116799);
+    background-image: linear-gradient(to bottom, #aee3f3, #116799);
+    text-decoration: none;
+  }
+  a{ 
+    color: rgb(205, 209, 211);
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none; /* it removes the underline of link*/
+  }
+  a:hover{
+    color: #fff;
+  }
+  
+/*Title image*/
+
+.title-image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+/*Features*/
+
+.skills{
+    padding: 5% 10% 5% 10%;
+}
+.skill-row{
+    
+    text-align: left;
+    line-height: 2;
+    padding: 10% 12% 10% 12%;
+}
+  
+
+.chilli{
+    width: 45%;
+    float: right;
+    margin-left:30px;
+    }
+
+.code{
+    width: 45%;
+    margin-right:30px;
+    float: left; /* this sets the text to left of the image. and txt wrap around the img.*/
+}
+
+/*testimonials  section*/
+
+#testimonial{
+    background-color: #112869;
+    padding: 8% 5% 8% 5%;
+    
+}
+
+.box{
+position: relative;
+
+background: rgb(0, 0, 0.3);
+width: 250px;
+height: 230px;
+border-radius: 15px;
+background-color: #EAF6F6;
+margin-left: 20%;
+margin-bottom: 12%;
+padding: 5% 5% 5% 5%;
+opacity: 0.4;
+}
+
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+      bottom: -40px;
+  
+  }
+  
+  /* The colour of the indicators */
+  .blog .carousel-indicators li {
+      background: #a3a3a3;
+      border-radius: 50%;
+      width: 12px;
+      height: 12px;
+      margin-right: 2%;
+  }
+  
+  .blog .carousel-indicators .active {
+  background: #707070;
+  }
+
+
+
+/*help section*/
+
+#Help {
+    background-color: #fff;
+    color : #000000;
+    padding : 7% 18%;
+} 
+.text{
+    padding: 8% 15% 2% 15%;
+    text-align: center;
+}
+.helpp{
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    padding-bottom: 2%;
+}
+
+/*Footer*/
+
+
+
+#footer{
+    background-color: #383E56;
+    color:white;
+
+}
+
+hr{
+  margin-bottom: 5px ;
+  border: 2px solid white;
+}
+
+.BackToTop{
+  margin-top: 30px;
+  margin-left: 50%;
+}
+
+
+
+.social-media{
+
+    margin: 20px 20px;
+}
+
+.social-media:hover{
+    color: #8ab1c9;
+}
+
+
+.icon{
+   
+    margin-bottom: 1rem ;
+    margin: 20px 15px;
+}
+
+.icon:hover{
+    color: #dce9f1;
+}
+
+
+
+
+
+
+
+ 
